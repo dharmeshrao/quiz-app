@@ -1,11 +1,7 @@
 import * as React from 'react';
-import './style.css';
+import { QuestionPage } from './components/QuestionPage';
+import './global.styles.scss';
 
 export default function App() {
-  return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
-  );
+  return <QuestionPage />;
 }
